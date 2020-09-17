@@ -8,7 +8,7 @@ const remainder = function(x, y) {
     return x % y;
 };
   
-// console.log(remainder(14,8));
+console.log(remainder(14,8));
 
 /**
  * Function 2: 
@@ -20,7 +20,7 @@ const minToSec = function(min) {
     return min * 60;
 };
   
-// console.log(minToSec(3));
+console.log(minToSec(3));
 
  /**
  * Function 3:  
@@ -31,7 +31,7 @@ const hrToSec = function(hr) {
     return hr * 60 * 60;
 };
   
-// console.log(hrToSec(1));
+console.log(hrToSec(1));
 
 
 
@@ -53,10 +53,10 @@ const celTofrh = function(deg,cf) {
         ans = (deg - 32) * 5 / 9
     } 
 
-    return ans;
+    return Math.round(ans * 10) / 10;
 };
   
-// console.log(celTofrh(64.5, 'f'));
+console.log(celTofrh(9, 'c'));
 
 /**
  * Function 5: 
@@ -68,7 +68,7 @@ const areaOfTriangle = function(wid,hei) {
     return 13 * 14 / 2 ;
 };
   
-// console.log(areaOfTriangle(13, 14));
+console.log(areaOfTriangle(13, 14));
 
 
  /**
